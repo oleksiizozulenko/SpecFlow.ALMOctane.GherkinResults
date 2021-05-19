@@ -6,27 +6,12 @@
     <title>SpecFlow ALMOctane cucumber results plugin</title>
     <authors>Oleksii Zozulenko</authors>
     <owners>Oleksii Zozulenko</owners>
-    <description>An enhancement to Specflow DSL to be able to use dynamic test data in specflow steps by bringing in variables, regular expressions and simple calculations.
-**Examples**:
-
-- Create dynamic test data and refer it in another step
-
-When enter [[var=50]] //assign 50 to a variable named "var"
-
-Then [[var]] equals 50 // now get variable "var" value
-
-- Create dynamic test data using regular expression
-
-When enter [[var=RegEx([0-9]{3})]] //assign var with 3 digit random number
-
-Then [[var]] is a 3 digits number // now get variable "var" value
-
-- Calculations are currently NOT supported</description>
-    <summary>An enhancement to Specflow DSL to be able to use dynamic test data in specflow steps by bringing in variables, regular expressions and simple calculations</summary>
-    <releaseNotes>See GitHub project page, https://github.com/wenyuansong/SpecFlow.DSL#release-history</releaseNotes>
+    <description>Add ability to create cucumber xml report that needed for integrate your specflow tests with ALM Octane</description>
+    <summary>Integrate your specflow tests with ALM Octane CI plugin</summary>
+    <releaseNotes>See GitHub project page, https://github.com/oleksiizozulenko/SpecFlow.ALMOctane.GherkinResults</releaseNotes>
     <language>en-US</language>
-    <projectUrl>https://github.com/wenyuansong/SpecFlow.DSL</projectUrl>
-    <licenseUrl>https://raw.githubusercontent.com/wenyuansong/SpecFlow.DSL/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/oleksiizozulenko/SpecFlow.ALMOctane.GherkinResults</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/oleksiizozulenko/SpecFlow.ALMOctane.GherkinResults/main/LICENSE</licenseUrl>
     <iconUrl>http://go.specflow.org/specflow-nuget-icon</iconUrl>
     <copyright>Copyright © 2021 Oleksii Zozulenko, Microfocus Inc</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
